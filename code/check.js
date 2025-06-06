@@ -1,5 +1,10 @@
+/*
+   Kiểm tra các email trong file data.txt có tồn tại trong logNhan.txt hay không.
+   - data.txt: chứa danh sách email làm chuẩn kiểm tra.
+   - logNhan.txt: chứa các log đã nhận, trong đó có email để kiểm tra.
+*/
+
 import { readFileSync } from "fs";
-import { join } from "path";
 
 // Đọc nội dung 2 file
 const dataLines = readFileSync("code/data.txt", "utf-8")
