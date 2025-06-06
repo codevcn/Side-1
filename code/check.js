@@ -37,7 +37,11 @@ const notInLog = [...dataEmails].filter(
 );
 
 // 4. In kết quả
-console.log(
-   `Có ${notInLog.length} email trong data.txt không có trong logNhan.txt:\n`
-);
+if (notInLog.length === 0) {
+   console.log(">>> Tất cả email trong data.txt đều có trong logNhan.txt");
+} else {
+   console.log(
+      `>>> Có ${notInLog.length} email trong data.txt không có trong logNhan.txt:\n`
+   );
+}
 notInLog.forEach((email) => console.log(email));
