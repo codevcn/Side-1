@@ -58,13 +58,13 @@ app.get("/get-random", (req, res) => {
 const myProxy = [
    {
       linkChange:
-         "https://api.enode.vn/getip/7c70658209207f6466bf92b1f75085fe282d8df3",
-      proxy: "http://116.97.200.204:10941",
+         "https://api.enode.vn/getip/8c7169906d6380217151ad6eddbbcac3a21ef93c",
+      proxy: "http://27.76.200.89:33011",
    },
    {
       linkChange:
-         "https://api.enode.vn/getip/5305a5672059d88777ad06a92dddebc651550a30",
-      proxy: "http://116.97.200.204:22497",
+         "https://api.enode.vn/getip/0505a01fc35ab21e5d632195028d554c7e6bf1de",
+      proxy: "http://117.1.91.8:60387",
    },
 ]; // 1 rảnh, 0 bận
 
